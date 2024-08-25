@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+
+.app-container { /* Or any other class name you prefer */
+  background-image: url('./assets/images/background.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.weather-nav {
+  width: 90%; 
+  height: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.weather-app {
+  display: flex; 
+}
+
+.search-history-card {
+  background-color: rgba(0, 0, 0, 0.2); 
+}
+
+.right-container {
+  width: 90vh; 
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  overflow-y: auto;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  margin-right: 10px;
+  
+}
+
+.left-container {
+  width: 90vh;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
